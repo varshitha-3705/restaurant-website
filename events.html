@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="/node_modules/bootstrap-icons/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.css">
+  <style>
+    body{
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      background-color: whitesmoke;
+      margin:0;
+    }
+    .div1{
+      width:90%;
+      background-color: white;
+      margin-top:10px;
+      overflow:auto;
+      box-shadow:0 0 20px rgba(0, 0, 0, 0.1);
+    }
+    .container{
+      position:relative;
+      width:100%;
+      height:95vh;
+      overflow:hidden;
+    }
+    .container img{
+      width:100%;
+      height:100%;
+      background-size:cover;
+    }
+    .glass{
+      position: absolute;
+      top:0;
+      left:0;
+      width:100%;
+      height:100%;
+      background: rgba(0, 0, 0, 0.55);
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      font-family:'Playfair Display', serif;
+      font-size:70px;
+      color: white;
+      letter-spacing:6px;
+      text-shadow:0 0 20px rgba(255, 255, 255, 0.6);
+      animation:fade 2s ease-in-out;
+    }
+    @keyframes fade{
+      from{
+        opacity:0;
+        transform:scale(1.1);
+      }
+      to{
+        opacity:1;
+        transform:scale(1);
+      }
+    }
+    .d1{
+      font-family:'Poppins', sans-serif;
+      font-size:18px;
+      padding:20px;
+      text-align:center;
+      margin:20px;
+      color: black;
+    }
+    .img{
+      transition:transform 0.3s ease;
+      border-radius:5%;
+    }
+    .img:hover{
+      transform:scale(1.05);
+    }
+    p{
+      font-family:'Poppins', sans-serif;
+    }
+  </style>
+</head>
+<body>
+  <div class="div1">
+    <div class="container">
+      <img src="/src/ambiance.jpg" alt="">
+      <div class="glass">LAVIOLAV</div>
+    </div>
+    <div class="d1">
+      If you have a specific date in mind and are planning a standard event.
+      Otherwise, to discuss availability, pricing, and other specific needs, please choose CONTACT US and we’ll be in touch soon.
+    </div>
+    <div style="display: flex; width: 100%; height: 400px; justify-content: space-evenly;">
+      <div>
+        <img class="img" style="width: 250px; height: 250px; box-shadow: 15px 10px 2px gray;" src="/src/small.jpg" alt="Small Table">
+        <p style="text-align: center; font-size: 20px; margin-top: 20px;">SMALL TABLE</p>
+      </div>
+      <div>
+        <img class="img" style="width: 300px; height: 300px; box-shadow: 15px 10px 2px gray;" src="/src/tab.webp" alt="Full Buyout">
+        <p style="text-align: center; font-size: 20px; margin-top: 20px;">FULL BUYOUT</p>
+      </div>
+    </div>
+    <div>
+      <img style="width: 600px; height: 500px; border-radius: 2%; margin-left: 300px; margin-top: 10px;" src="/src/bday.jpg" alt="Patio">
+      <p style="text-align: center; font-size: 20px; margin-top: 20px;">PATIO</p>
+    </div>
+    <div style="text-align: center; margin: 50px 0 20px 0;">
+      <p>laviolav’s Kitchen 112 West Main Street, Alhambra, CA, 91801, United States 6262811035 hello@laviolav’s.com</p>
+    </div>
+    <div style="display: flex; justify-content: center; align-items: center; margin-bottom: 10px;">
+      <div class="bi bi-shop ms-4 fs-3"></div>
+    </div>
+    <div style="display: flex; justify-content: center; margin-bottom: 10px;">
+      <div class="bi bi-c-circle ms-2 fs-6"> laviolav’s Kitchen</div>
+    </div>
+  </div>
+
+  <script src="/node_modules/jquery/dist/jquery.js"></script>
+  <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.css">
+    <script src="project.js"></script>
+</head>
+<style>
+    body{
+        /* display: flex;
+        justify-content:flex-end;
+        align-items:center; */
+        background-image: url("src/0539d0cc-f981-49e3-a002-af870b2fc23a.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 90vh;
+        width:81%;
+        /* height: 100vh; */
+        margin-top: 10px;
+        text-align: center;
+        /* overflow:scroll; */
+        }
+    main{
+        margin: 30px;
+        color:beige;
+        font-weight: 500;
+        font-size: large;
+    }
+    .div{
+        background: rgb(0,0,0,0.5);
+        /* background: white; */
+        width: 30%;
+        height: 400px;
+        position:absolute;
+        top: 0;
+        top: 100px;
+        right :100px;
+        left: 900px;
+        border-radius: 1rem;
+    } 
+    input{
+        border: none;
+        border-bottom: 2px solid whitesmoke;
+        outline: none;
+        background-color:transparent;
+        background-color: rgb(254,255,255,0.3);
+        
+    }
+
+</style>
+<body>
+    <section>
+        <div class="div">
+        <main>
+           <!-- <img src="/src/1107x830.jpg" alt=""> -->
+           <div style="padding: 10px;"><label>NAME</label>
+           <input type="text" id="customerName" placeholder="enter ur name"><br></div>
+
+           <div style="padding: 10px;"><label>ph.no</label>
+           <input type="tel" id="customerMobile" placeholder="your ph.no"><br></div>
+
+           <div style="padding: 10px;"><label>EMAIL</label>
+           <input type="email" id="customerMail" placeholder="enter your mail"><br></div>
+
+           <div style="padding: 10px;"><label>MEMBERS</label>
+           <input type="text" placeholder="no.of people"><br></div>
+
+            <div style="padding: 10px;"><label>DATE & TIME</label>
+           <input type="datetime-local" id="input"><br></div>
+
+           <div><button style="margin: 20px; height: 50px;width: 250px;" class="btn btn-danger" onclick="userInfo()">RESERVE A TABLE</button></div>
+        </div>
+        <!-- <button onclick="Reserve()" class="btn btn-danger w-75 mb-3">Reserve</button> -->
+        </main>
+    </section>
+
+
+<script src="/node_modules/jquery/dist/jquery.js"></script>
+<script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>

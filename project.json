@@ -1,0 +1,37 @@
+[
+{
+    "day":"monday",
+    "timings":"5:00pm - 9:00pm"
+},
+{
+       "day":"tuesday",
+    "timings":"11:30am - 9:00pm" 
+},
+{
+        "day":"wednesday",
+    "timings":"11:30am - 9:00pm"
+},
+
+{
+        "day":"thursday",
+    "timings":"11:30am - 9:00pm"
+},
+{
+        "day":"friday",
+    "timings":"11:30am - 10:00pm"
+},
+{
+        "day":"saturday",
+    "timings":"10:30am - 10:00pm"
+},
+{
+        "day":"sunday",
+    "timings":"10:30am - 9:00pm"
+}
+]
+
+
+
+
+
+

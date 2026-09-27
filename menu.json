@@ -1,0 +1,168 @@
+
+[
+  {
+    "id": 1,
+    "name": "Margherita Pizza",
+    "category": "Pizza",
+    "price": 249,
+    "currency": "INR",
+    "description": "Classic pizza topped with mozzarella and tomato sauce.",
+    "availability": true,
+    "veg": true,
+    "image": "/src/margerita.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Farmhouse Pizza",
+    "category": "Pizza",
+    "price": 299,
+    "currency": "INR",
+    "description": "Loaded with onion, capsicum, tomato, and mushrooms.",
+    "availability": true,
+    "veg": true,
+    "image": "/src/farmhouse pizza'.webp"
+  },
+  {
+    "id": 3,
+    "name": "Pepperoni Pizza",
+    "category": "Pizza",
+    "price": 349,
+    "currency": "INR",
+    "description": "Pizza with pepperoni slices and cheese.",
+    "availability": true,
+    "veg": false,
+    "image": "/src/pepporoni pizza.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Paneer Butter Masala",
+    "category": "Indian Curry",
+    "price": 199,
+    "currency": "INR",
+    "description": "Paneer cubes cooked in a rich buttery tomato gravy.",
+    "availability": true,
+    "veg": true,
+    "image": "/src/panner butter masala.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Dal Tadka",
+    "category": "Indian Curry",
+    "price": 149,
+    "currency": "INR",
+    "description": "Yellow dal tempered with spices and ghee.",
+    "availability": true,
+    "veg": true,
+    "image": "/src/dal tadka.webp"
+  },
+  {
+    "id": 6,
+    "name": "Chicken Curry",
+    "category": "Indian Curry",
+    "price": 249,
+    "currency": "INR",
+    "description": "Spicy chicken curry cooked with Indian spices.",
+    "availability": true,
+    "veg": false,
+    "image": "/src/chicken curry.jpeg"
+  },
+  {
+    "id": 7,
+    "name": "Mutton Rogan Josh",
+    "category": "Indian Curry",
+    "price": 349,
+    "currency": "INR",
+    "description": "Kashmiri-style mutton curry with aromatic spices.",
+    "availability": true,
+    "veg": false,
+    "image": "/src/Mutton Rogan Josh Recipe.JPG"
+  },
+  {
+    "id": 8,
+    "name": "Veg Biryani",
+    "category": "Rice",
+    "price": 199,
+    "currency": "INR",
+    "description": "Fragrant basmati rice cooked with vegetables and spices.",
+    "availability": true,
+    "veg": true,
+    "image": "/src/veg biryani.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Chicken Biryani",
+    "category": "Rice",
+    "price": 299,
+    "currency": "INR",
+    "description": "Aromatic rice cooked with marinated chicken and herbs.",
+    "availability": true,
+    "veg": false,
+    "image": "/src/chicken biryani.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Egg Fried Rice",
+    "category": "Chinese",
+    "price": 160,
+    "currency": "INR",
+    "description": "Stir-fried rice with scrambled eggs and veggies.",
+    "availability": true,
+    "veg": false,
+    "image": "/src/egg fried rice.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Veg Fried Rice",
+    "category": "Chinese",
+    "price": 150,
+    "currency": "INR",
+    "description": "Fried rice with fresh vegetables and sauces.",
+    "availability": true,
+    "veg": true,
+    "image": "/src/veg fried rice.jpeg"
+  },
+  {
+    "id": 12,
+    "name": "Chicken Manchurian",
+    "category": "Chinese",
+    "price": 220,
+    "currency": "INR",
+    "description": "Fried chicken balls tossed in spicy Manchurian sauce.",
+    "availability": true,
+    "veg": false,
+    "image": "/src/chicken-manchurian-tnnew.webp"
+  },
+  {
+    "id": 13,
+    "name": "Veg Manchurian",
+    "category": "Chinese",
+    "price": 180,
+    "currency": "INR",
+    "description": "Crispy veg balls cooked in spicy Manchurian gravy.",
+    "availability": true,
+    "veg": true,
+    "image": "/src/veg manchuria.jpg"
+  },
+  {
+    "id": 14,
+    "name": "Spring Rolls",
+    "category": "Snacks",
+    "price": 129,
+    "currency": "INR",
+    "description": "Crispy fried rolls stuffed with vegetables.",
+    "availability": true,
+    "veg": true,
+    "image": "/src/spring rolls.jpg"
+  },
+  {
+    "id": 15,
+    "name": "French Fries",
+    "category": "Snacks",
+    "price": 99,
+    "currency": "INR",
+    "description": "Golden crispy fries served with ketchup.",
+    "availability": true,
+    "veg": true,
+    "image": "/src/french fries.jpg"
+  }
+]

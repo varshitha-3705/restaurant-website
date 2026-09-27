@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.css">
+    <script src="project.js"></script>
+    <style>
+        body{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        height: 90vh;
+        overflow:scroll;
+       }
+       .main{
+        height: 100%;
+        width:81%;
+        background-color:white;
+        /* height: 100vh; */
+        margin-top: 10px;
+        /* overflow:scroll; */
+       }
+        input{
+            border: none;
+            border-bottom: 2px solid black;
+            outline: none;
+            background-color: transparent;
+        }
+        main{
+            margin-left: 300px;
+            margin-top: 50px;
+        }
+        h1{
+            text-align: center;
+        }
+        p{
+            font-family:'Times New Roman', Times, serif;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <header>
+            <h1>CONTACT US</h1>
+            <div style="font-family:'Times New Roman', Times, serif;font-size: 25px;margin-left:30px;text-align: center;">For events and large reservation inquires, please contact us via the Private Events page.</div>
+            <div style="font-family:'Times New Roman', Times, serif;font-size: 22px;margin-left:30px;text-align: center;">For all other inquires, send us a message and we’ll get back to you as soon as possible.</div>
+            <div style="font-family:'Times New Roman', Times, serif;font-size: 22px;margin-left:30px;text-align: center;"> looking forward to hear from you!</div>
+        </header>
+        <main class="margin-left:100px">
+           <div class="input-group mb-3"style="width:450px;text-align:center;">
+               <span class="bi bi-person input-group-text"></span>
+               <input class="form-control" id="cName" type="text" placeholder="enter name">
+            </div>
+
+            <div class="input-group mb-3"style="width:450px;text-align:center;">
+               <span class="bi bi-phone input-group-text"></span>
+               <input class="form-control" id="cMobile" type="tel" placeholder="enter mobile number">
+            </div>
+
+            <div class="input-group mb-3"style="width:450px;text-align:center;">
+               <span class="bi bi-envelope input-group-text"></span>
+               <input class="form-control" id="cMail" type="email" placeholder="enter email">
+            </div>
+
+            <div class="input-group mb-3"style="width:450px;text-align:center;height:100px;">
+               <span class="bi bi-paragraph input-group-text"></span>
+               <input class="form-control" id="cMessage" type="text" placeholder="message...">
+            </div>
+
+           <button style="width: 300px;margin-top: 15px;margin-left: 75px;" class="btn btn-danger" onclick="Info()">Send</button>
+        </main>
+        <div style="margin-top:30px;font-family:'Times New Roman', Times, serifs;text-align: center;">
+            laviolav’s Kitchen 112 West Main Street, Alhambra, CA, 91801, United States 6262811035 hello@laviolav’s.com2019 laviolav’s Kitchen
+        </div>
+        <div style="display: flex;justify-content: center;align-items: center;margin-bottom: 10px;margin-top: 20px;">
+            <div class="bi bi-shop ms-4 fs-3"></div>
+        </div>
+        <div style="display: flex;justify-content: center;margin-bottom: 10px;">
+            <div class="bi bi-c-circle ms-2 fs-6">laviolav’s Kitchen</div>
+        </div>
+    </div>
+
+<script src="/node_modules/jquery/dist/jquery.js"></script>
+<script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+
+</body>
+</html>
